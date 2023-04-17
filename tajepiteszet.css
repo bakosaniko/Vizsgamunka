@@ -1,0 +1,399 @@
+
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    justify-content: space-evenly;  
+height: fit-content;
+    width: 80%;
+    margin: auto;
+        align-items: flex-end;
+
+}
+.menu{
+    display: flex;
+    justify-content:flex-end;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    border-bottom: 2px beige solid;
+    background-color: rgb(255, 248, 188, 0.1);
+
+    
+}
+.menu div{
+    padding: 1%;
+    width: fit-content;
+    font-family: 'Century Gothic';
+    font-weight: 600;
+    text-shadow: 0px 0px 3px black;
+     height: fit-content;
+     text-align: center;
+     margin: 1%;
+     color: rgb(245, 245, 220);
+     
+}
+.menu div:hover{
+background-color: rgba(107, 138, 111, 0.5);
+}
+
+.tajepszlogen{
+    display: flex;
+    font-size: 30px;
+    border: 2px beige solid;
+    background-color:rgb(39, 109, 43,0.6) ;
+
+}
+.content{
+width: 98%; 
+display: flex;
+flex-direction: row;
+height: fit-content;
+}
+.content div{
+
+   
+    margin: 1%;
+    border-radius: 5px;
+    font-size: larger;
+    font-family: 'Century Gothic';
+height: 100%;
+}
+.szoveg{
+ width: 65%;
+ color: rgb(7, 7, 0);
+ background-color: rgb(245, 245, 220, 0.8);
+ padding: 2%;
+
+ 
+}
+img{
+    padding: 1%;
+
+}
+a{
+    color: beige;
+    text-decoration: none;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    font-family: 'Century Gothic';  
+    border-radius: 5px;
+    border-top: 1px solid beige;
+    background-color: rgb(245, 245, 220, 0.4);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  
+}
+footer div{
+    padding: 1%;
+    color: rgb(0, 0, 0);
+    font-family: 'Century Gothic';
+    text-align: center;
+    font-weight: bold;
+  
+}
+
+
+header{
+height: 15%;
+padding: 2%;
+color: rgb(5, 5, 5);
+border-radius: 5px;
+    margin: 1%;
+    font-family: 'Century Gothic'; 
+    text-align: center;
+    font-size: 50px;
+   
+}
+aside{
+height: 70%;
+}
+article{
+    height: 70%;
+    padding: 2%;
+    color: rgb(5, 5, 5);
+    border-radius: 5px;
+        margin: 1%;
+        font-family: 'Century Gothic'; 
+        text-align: center;
+        font-size: 50px;
+
+}
+
+body{
+    margin: auto;
+    background-image: url(./photos/stone-path-with-grass-growing-up_1137-86.avif);
+    background-size: cover;
+   height: 100%;
+}
+.container{
+    background-color: rgb(255, 248, 188, 0.8);
+    padding: 1%;
+    text-align: left;
+    margin: 1%;
+}
+.container div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+input{
+    width: 50%;
+}
+option{
+    width: fit-content;
+    text-align: start;
+    font-size: larger;
+    box-sizing: content-box;
+
+}
+.services, .products{
+display: flex;
+width: 88%; 
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-content: stretch;
+height: fit-content;
+}
+.services div, .products div{
+    padding: 3%;
+    background-color: rgb(255, 248, 188);
+    margin: 1%;
+    border-radius: 5px;
+    border: 2px solid rgb(128, 145, 33);
+    font-size: larger;
+    font-family: 'Century Gothic';
+    width:25%;
+    text-align: center;
+}
+
+.tajephome{
+    padding: 2%;
+    border: 8px beige solid;
+    width: 40%;
+    margin: auto;
+    background-color: rgb(245, 245, 219, 0.5);
+}
+button{
+    padding: 15px;
+    border: 3px hsl(123, 47%, 29%) solid;
+    background-color: rgb(245, 245, 220, 0.8);
+    font-family: 'Century Gothic';
+    
+}
+button:hover{
+    background-color:rgb(39, 109, 43,0.6) ;
+    color: beige;
+    border: 3px rgb(245, 245, 220, 0.6) solid;
+
+}
+
+@media screen and (max-width: 600px){
+    .main{
+        align-content: center;
+        display: flex;
+        align-items: center;
+    }
+    .menu{
+        display: flex;
+        width: 98%;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .menu div{
+       width: 98%;
+     
+    }
+    .main{
+    display: flex;
+    justify-content: center;
+    
+}
+.content{
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+}
+img{
+width: 100%;
+padding: 2%;
+align-self: center;
+}
+.szoveg{
+    width: 100%;
+}
+.container{
+    width: 100%;
+    margin: 2%;
+}
+   
+}
+@media screen and (max-width: 800px){
+    article{
+        height: 80%;
+        padding: 1%;
+            font-family: 'Century Gothic'; 
+            font-size: 30px;
+}
+.tajephome{
+    padding: 10%;
+    border: 8px beige solid;
+    width: 60%;
+    margin: auto;
+    background-color: rgb(245, 245, 219, 0.5);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    
+}
+.content{
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+}
+img{
+width: 100%;
+padding: 2%;
+align-self: center;
+}
+.szoveg{
+    width: 100%;
+}
+.container{
+    width: 100%;
+    margin: 2%;
+}
+
+}
+@media screen and (max-width: 1300px){
+.main{
+    display: flex;
+    justify-content: center;
+    
+}
+.content{
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+}
+img{
+width: 100%;
+padding: 2%;
+align-self: center;
+}
+.szoveg{
+    width: 100%;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+}
+
+
+/* Galéria */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container2 {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
