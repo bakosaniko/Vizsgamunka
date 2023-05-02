@@ -28,3 +28,23 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+function check(){
+
+  cim = urlap.email.value
+  if (cim.length==0){
+alert('Az email cím üres!')
+  }
+  tel = urlap.telefonszam.value
+  if (tel.length==0){
+    alert('Kérjük, adja meg telefonszámát!')
+      }
+  if (isNaN(tel)){
+alert('Kérjük, a telefonszámot az alábbi formátumban adja meg: 06 70 123 45 67')
+  }
+  szoveges = urlap.szoveges.value
+  if (cim.length==0){
+alert('Kérjük, fejtse ki pár szóban, milyen ügyben keres minket!')
+  }
+  
+}
